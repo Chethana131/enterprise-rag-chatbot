@@ -2,7 +2,7 @@ import streamlit as st
 import os
 import subprocess
 import time
-from t2 import unified_query
+from query_engine import unified_query
 
 UPLOAD_DIR = "uploads"
 os.makedirs(UPLOAD_DIR, exist_ok=True)
